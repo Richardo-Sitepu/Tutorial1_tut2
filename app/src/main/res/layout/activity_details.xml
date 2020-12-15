@@ -7,8 +7,9 @@
     tools:context=".DetailsActivity">
 
     <WebView
-        android:layout_width="329dp"
-        android:layout_height="637dp"
+        android:id="@+id/webView"
+        android:layout_width="403dp"
+        android:layout_height="739dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

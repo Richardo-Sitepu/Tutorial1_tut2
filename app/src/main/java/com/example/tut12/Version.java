@@ -1,12 +1,11 @@
 package com.example.tut12;
 
-
 public class Version {
     private String name;
     private String description;
-    private int icon;
+    private String icon;
 
-    public Version(String name, String description, int icon) {
+    public Version(String name, String description, String icon) {
         this.name = name;
         this.description = description;
         this.icon = icon;
@@ -20,7 +19,7 @@ public class Version {
         return description;
     }
 
-    public int getIcon() {
+    public String getIcon() {
         return icon;
     }
 }
